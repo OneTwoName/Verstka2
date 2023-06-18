@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,*::before, *::after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav, footer, header, aside{display: block;}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1, h2, h3, h4, h5, h6{font-size: inherit; font-weight: 400;}
+/* ------------------------------ */
+
+body{
+    padding: 30px 108px 106px 108px;
+    background-color: #e8e8e8;
+    
+    height: 1700px;
+}
+
+.header{
+    margin: 0 auto;
+    background: url("../img/макет/Ellipse.png") 50% no-repeat;
+    background-size: 100%;
+    width: 1140px;
+    height: 1026px;
+}
+
+.head{
+    margin: 62px auto 0 auto;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 70px;
+    
+}
+
+.zagolovok{
+    margin: 10px auto 60px auto;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 650px;
+    line-height: 45px;
+}
+
+.man{
+    margin: 0 auto;
+    background: url("../img/макет/man.png") center/ 0 100% no-repeat;
+    background-size: 100%;
+    /* width: 767px; */
+    height: 650px;
+    border: 10px solid rgb(255, 255, 255);
+    
+    box-shadow: 0px 15px 65px 0 rgba(15, 16, 16, 0.15);
+
+}
+
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    opacity: 0.8;
+    margin: 72px auto 30px auto;
+    width: 690px;
+    height: 275px;
+    
+}
+
+.text > span{
+    display: block;
+    margin-bottom: 34px;
+    opacity: 0.8;  
+    line-height: 38px;
+}
+
+.list{
+    margin-left: 222px;
+    width: 500px;
+    margin-bottom: 59px;
+}
+.text:hover{
+    text-decoration: underline;
+}
+.list li{
+    background: url("../img/макет/mark.png") 0 0 no-repeat;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 11px 0;
+    padding: 0 0 0 35px;
+    
+}
+
+.one{
+    text-shadow: 0px 1px 0 rgba(0, 0, 0, 0.3);
+}
+.two {
+    color: #80b7b3;
+    font-style: italic;
+}
+.three {
+    font-weight: 700;
+    color: #273d46;
+}
+.four {
+    color: rgba(39, 61, 70, 0.3);
+    text-decoration: line-through;
+}
+
+
+.button{
+    padding: 10px 0 0 30px;
+    margin: 0 0 140px 222px;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    color: white;
+    text-transform: uppercase; 
+    width: 180px;
+    height: 42px;
+    border-radius: 100px;
+    background-color: rgba(128, 183, 179, 1);
+    box-shadow: 0px 6px 40px 0 rgba(128, 183, 179, 0.54);
+}
+.button:hover{
+    background-color: #14530b;
+}
